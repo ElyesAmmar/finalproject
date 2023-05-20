@@ -1,0 +1,98 @@
+
+.dashboard{
+    margin-top: 50px;
+}
+.dashboard h1{
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.header-dashboard{
+    background-color: rgb(231, 231, 231);
+    display: block;
+    height: 150px;
+    width: 100%;
+    
+}
+.navbar-dashboard {
+    height: 50px;
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-dashboard li {
+    text-align: center;
+    padding-top: 8px;
+    list-style-type: none;
+    display: block;
+    width: 300px;
+    height: 40px;
+    text-decoration: none;
+    
+}
+.navbar-dashboard Link{
+    text-decoration: none;
+    
+}
+.navbar-dashboard li:active{
+    background-color: white;
+
+}
+.datatable{
+    
+    width: 1200px;
+    text-align: center;
+    margin: 20px auto;
+    
+}
+.ordertable{
+    width: 800px;
+    text-align: center;
+    margin: 20px auto;
+}
+.searchbar{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 1200px;
+    background-color: rgb(235, 233, 233);
+    margin-top: 20px;
+    
+}
+.tableProduct tr {
+    text-align: center;
+    vertical-align: middle;
+    height: 50px;
+}
+.tableClient tr {
+    text-align: center;
+    vertical-align: middle;
+   
+}
+.order-form{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 20px auto 20px;
+}
+
+
+
+/* Home page */
+.logform{
+    width: 500px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    
+}
+.home{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 600px;
+    
+    
+}
+
